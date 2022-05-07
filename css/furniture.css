@@ -1,0 +1,32 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.nav__item4{
+    font-weight: bold;
+}
+.main{
+	width: 1500px;
+	height: 100px;
+	margin: 0 auto;
+}
+.main__text{
+    margin-top:30px;
+}
+.main__content{
+
+}
+.main__content__text{
+    font-weight: bolder;
+    margin-top:20px;
+}
+.main__content__text2{
+    font-weight: bold;
+    margin-top:20px;
+}
+.main__content__text3{
+    margin-top: 40px;
+}
