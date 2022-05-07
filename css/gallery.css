@@ -11,6 +11,7 @@ body{
 
 .container{
 	width: 100%;
+	margin: 0;
 }
 
 .nav{
@@ -84,3 +85,14 @@ body{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+
+}
+
+/* gallery */
+
+.gallery_titile{
+ margin-left: 20px;
+ margin-top:120px;
+ color:gray;
+ display: wrap;
+}
