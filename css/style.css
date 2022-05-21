@@ -85,27 +85,29 @@ body{
 	height: 100%;
 	object-fit: cover;
 }
-.dawn{
-	position: absolute;
+.dawn_1{
 	width: 100%;
 	height: 100px;
-	left: 0px;
-	top: 1000px;
     background: #F2EEEE;
 }
 .img_dawn{
-	position: absolute;
-	width: 90px;
-	height: 60px;
-	left: 715px;
-	top: 20px;
+	width: 130px;
+	height: 90px;
+	display: block;
+	margin: 0 auto;
+}
+.door_info{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	width: 1500px;
+	margin: 0 auto;
 }
 .door{
-	position: absolute;
-	width: 159px;
-	height: 59px;
-	left: 680px;
-	top: 1140px;
+	margin: 30px;
+	width: 100%;
+	height: 69px;
+
 
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -120,19 +122,14 @@ body{
 	color: #212121;
 }
 .info_doors{
-	left: 350px;
-	margin: 320px;
-}
-.info_doors_a{
-	left: 350px;
-	margin: 320px;
+	width: 32%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 30px;
 }
 .info_1{
-	position: absolute;
-	width: 177px;
-	height: 44px;
-	left: 336.92px;
-	top: 1305px;
+
 
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -146,11 +143,8 @@ body{
 
 }
 .info_2{
-	position: absolute;
-	width: 403px;
-	height: 68px;
-	left: 219px;
-	top: 1370px;
+
+
 
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -162,19 +156,46 @@ body{
 	color: #212121;
 }
 .button{
-	position: absolute;
+	width: 40%;
+	margin: 0 auto;
+	display: block;
 	color: #000;
 	text-decoration: none;
 	display: inline-block;
 	padding: 10px 30px;
 	border: 1px solid black;
 	transition: all 0.5s ease;
-	top: 1460px;
-	left: 310px;
 }
 .button:hover{
 	color: #fff;
 	background: #000;
+}
+.dawn_2{
+	width: 100%;
+	height: 100px;
+    background: #F2EEEE;
+    margin: 40px 0px;
+}
+.win_door_galery{
+
+}
+.win_door_h2{
+	margin: 15px;
+	width: 100%;
+	height: 69px;
+
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 59px;
+	/* identical to box height */
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #212121;
 }
 .footer{
 	margin-top: 1950px;
