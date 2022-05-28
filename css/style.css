@@ -19,12 +19,14 @@ body{
 	z-index: 10;
 }
 .nav .wrapper{
-	width: 1500px;
 	height: 100px;
-	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+.wrapper{
+	width: 1500px;
+	margin: 0 auto;
 }
 .nav__logo{
 	width: 275px;
@@ -85,18 +87,182 @@ body{
 	height: 100%;
 	object-fit: cover;
 }
-.dawn{
-	position: absolute;
+.dawn_1{
 	width: 100%;
 	height: 100px;
-	left: 0px;
-	top: 1000px;
     background: #F2EEEE;
 }
 .img_dawn{
-	position: absolute;
-	width: 90px;
-	height: 60px;
-	left: 715px;
-	top: 20px;
+	width: 130px;
+	height: 90px;
+	display: block;
+	margin: 0 auto;
+}
+.door_info{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	width: 1500px;
+	margin: 0 auto;
+}
+.door{
+	margin: 30px;
+	width: 100%;
+	height: 69px;
+
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 59px;
+	/* identical to box height */
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #212121;
+}
+.info_doors{
+	width: 32%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 30px;
+}
+.info_1{
+
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 44px;
+	/* identical to box height */
+
+
+	color: #212121;
+
+}
+.info_2{
+
+
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 34px;
+	text-align: center;
+
+	color: #212121;
+}
+.button{
+	width: 40%;
+	margin: 0 auto;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 30px;
+	border: 1px solid black;
+	transition: all 0.5s ease;
+}
+.button:hover{
+	color: #fff;
+	background: #000;
+}
+.dawn_2{
+	width: 100%;
+	height: 100px;
+    background: #F2EEEE;
+    margin: 40px 0px;
+}
+.win_door_galery{
+    width: 1500px;
+	margin: 0 auto;
+}
+.win_door_h2{
+	margin: 15px;
+	width: 100%;
+	height: 69px;
+
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 59px;
+	/* identical to box height */
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #212121;
+}
+.gallery-tape{
+	width: 100%;
+}
+.com_img{
+	padding: 0px 85px;
+}
+.com_img1{
+	padding: 0px 80px;
+	margin: 0px;
+}
+.com_img2{
+	padding: 0px 130px;
+	margin-top: 30px;
+}
+.com_img3{
+	margin-top: 30px;
+}
+.win_comunity{
+	width: 1500px;
+	margin: 0 auto;
+}
+.win_door_h22{
+	margin: 60px;
+	width: 100%;
+	height: 69px;
+
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	margin-left: 20px;
+	font-size: 48px;
+	line-height: 59px;
+	/* identical to box height */
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #212121;
+}
+
+.footer{
+	margin-top: 1950px;
+    width: 100%;
+    height: 444px;
+    background: #F2EEEE;
+    align-items: center;
+}
+.footer__over__block{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.footer__block1,.footer__block2,.footer__block3,.footer__block4,.footer__in__block1,.footer__in__block2{
+    font-size: 18px;
+    line-height: 40px;
+}
+.footer__bold{
+    font-weight: bold;
+    margin-top:20px;
 }
